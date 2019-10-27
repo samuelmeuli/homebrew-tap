@@ -2,8 +2,8 @@ class Tmignore < Formula
 	desc "Exclude development files from Time Machine backups"
 	homepage "https://github.com/samuelmeuli/tmignore"
 	url "https://github.com/samuelmeuli/tmignore.git",
-		:tag => "v1.0.3",
-		:revision => "510506a623a0a7ef9e5b910dfb95e28df06a7966"
+		:tag => "v1.1.0",
+		:revision => "48859fd0d3eb71a357e6bed417de74428f171965"
 	head "https://github.com/samuelmeuli/tmignore.git"
 
 	depends_on :xcode => ["10.0", :build]
